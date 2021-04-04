@@ -77,3 +77,57 @@ img {
   justify-content: center;
   align-items: center;
 }
+
+/* Login Form */
+.form-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.main-form input {
+  width: 25rem;
+  margin: 0.5rem 0;
+  padding: 1rem 0;
+  background: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-size: 1.2rem;
+}
+
+.main-form input[type="email"]::placeholder,
+.main-form input[type="text"]::placeholder,
+.main-form input[type="password"]::placeholder {
+  color: #fff;
+}
+
+.main-form input[type="button"] {
+  background: #740001;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.main-form .input:last-child {
+  position: relative;
+}
+
+.main-form .fa-eye {
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  top: 35.5rem;
+  right: 4rem;
+}
+
+.form-content p {
+  color: #c4bdb5;
+  font-size: 1rem;
+}
+
+.form-content p span {
+  color: #fff;
+}
